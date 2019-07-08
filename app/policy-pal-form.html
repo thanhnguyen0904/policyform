@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <title></title>
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Policy Pal">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Policy Pal">
+    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#2F3BA2">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+    <!-- Your styles -->
+    <!-- build:css styles/core.css -->
+    <link rel="stylesheet" href="styles/core.css">
+    <!-- endbuild -->
+    <!-- build:css styles/policy-pal-form.css -->
+    <link rel="stylesheet" href="styles/policy-pal-form.css">
+    <!-- endbuild -->
+</head>
+<body>
+
+<header>
+    <div class="container-fluid">
+        <div class="navbar-holder d-flex align-items-center">
+            <div class="navbar-holder">
+                <a href="/" class="d-inline-block mr-2">
+                    <img class="img-fluid" src="https://policypal.com/static/media/PolicyPalLogo.39d58d99.svg" />
+                </a>
+                <a href="/" class="d-inline-block">
+                    <img class="img-fluid" src="https://policypal.com/static/media/get5.6ee51365.svg" />
+                </a>
+            </div>
+            <div class="navbar-menu ml-auto d-none d-md-flex">
+                <div class="menu-item has-dropdown">
+                    <span>Buy Policy</span>
+                    <div class="menu-dropdown d-flex flex-wrap">
+                        <a href="#" class="w-50 d-block">
+                            <img class="img-fluid d-inline-block" src="https://policypal.com/static/media/nav-Travel.464c2073.svg" />
+                            <span>Travel</span>
+                        </a>
+                        <a href="#" class="w-50 d-block">
+                            <img class="img-fluid d-inline-block" src="https://policypal.com/static/media/nav-Endowment.cdadd440.svg" />
+                            <span>Endowment</span>
+                        </a>
+                        <a href="#" class="w-50 d-block">
+                            <img class="img-fluid d-inline-block" src="https://policypal.com/static/media/nav-Motor.72a9893c.svg" />
+                            <span>Motor</span>
+                        </a>
+                        <a href="#" class="w-50 d-block">
+                            <img class="img-fluid d-inline-block" src="https://policypal.com/static/media/nav-Retirement.5500d486.svg" />
+                            <span>Retirement</span>
+                        </a>
+                        <a href="#" class="w-50 d-block">
+                            <img class="img-fluid d-inline-block" src="https://policypal.com/static/media/nav-Life.6b99f177.svg" />
+                            <span>Life</span>
+                        </a>
+                        <a href="#" class="w-50 d-block">
+                            <img class="img-fluid d-inline-block" src="https://policypal.com/static/media/nav-Pet.ccdeef49.svg" />
+                            <span>Pet</span>
+                        </a>
+                        <a href="#" class="w-50 d-block">
+                            <img class="img-fluid d-inline-block" src="https://policypal.com/static/media/nav-PA.119b8bbd.svg" />
+                            <span>Personal accident</span>
+                        </a>
+                        <a href="#" class="w-50 d-block">
+                            <img class="img-fluid d-inline-block" src="https://policypal.com/static/media/nav-business.4caadedf.svg" />
+                            <span>Bussiness</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="menu-item has-dropdown">
+                    <span>More</span>
+                    <div class="menu-dropdown d-flex flex-column w-sm">
+                        <a href="#" class="d-block">
+                            <span>Claims</span>
+                        </a>
+                        <a href="#" class="d-block">
+                            <span>Claims</span>
+                        </a>
+                        <a href="#" class="d-block">
+                            <span>Claims</span>
+                        </a>
+                        <a href="#" class="d-block">
+                            <span>Claims</span>
+                        </a>
+                    </div>
+                </div>
+                <a href="#" class="menu-item">
+                    <span>Blog</span>
+                </a>
+                <a href="#" class="menu-item btn-signin">Sign in</a>
+                <a href="#" class="menu-item btn-signup">Sign up</a>
+            </div>
+            <div class="toggle-menu ml-auto d-block d-md-none">
+                <img class="img-fluid" src="https://policypal.com/static/media/mobile-hamburger.ad193d14.svg" />
+            </div>
+            <div class="navbar-menu-mobile">
+                <div class="navbar-menu-mobile-pd">
+                    <div class="navbar-menu-mobile-top d-flex align-items-center">
+                        <a href="/" class="d-block">
+                            <img class="img-fluid" src="https://policypal.com/static/media/policypal-logo-white.f020f9eb.svg" />
+                        </a>
+                        <div class="btn-close ml-auto">
+                            <img class="img-fluid" src="https://policypal.com/static/media/CloseIcon.3a827db7.svg" />
+                        </div>
+                    </div>
+                    <div class="group-btn mt-4">
+                        <div class="btn btn-signin mr-1">Sign in</div>
+                        <div class="btn btn-signup mr-1">Sign up</div>
+                    </div>
+                    <div class="navbar-menu-mobile-holder mt-3">
+                        <a href="#" class="navbar-menu-mobile-item mt-2">Get 5$</a>
+                        <div class="navbar-menu-mobile-item mt-2 has-dropdown">
+                            <div class="d-flex align-items-center">
+                                <span>Buy Policy</span> <i class="fa dropdown-icon fa-chevron-up ml-auto" aria-hidden="true"></i>
+                            </div>
+                            <div class="menu-mobile-dropdown">
+                                <a href="#" class="d-flex align-items-center mb-3">
+                                    <img class="img-fluid mr-2" src="https://policypal.com/static/media/nav-travel-white.1306cee1.svg" />
+                                    Travel
+                                </a>
+                                <a href="#" class="d-flex align-items-center mb-3">
+                                    <img class="img-fluid mr-2" src="https://policypal.com/static/media/nav-travel-white.1306cee1.svg" />
+                                    Travel
+                                </a>
+                                <a href="#" class="d-flex align-items-center mb-3">
+                                    <img class="img-fluid mr-2" src="https://policypal.com/static/media/nav-travel-white.1306cee1.svg" />
+                                    Travel
+                                </a>
+                            </div>
+                        </div>
+                        <div class="navbar-menu-mobile-item mt-2 has-dropdown">
+                            <div class="d-flex align-items-center">
+                                <span>More</span> <i class="fa dropdown-icon fa-chevron-up ml-auto" aria-hidden="true"></i>
+                            </div>
+                            <div class="menu-mobile-dropdown">
+                                <a href="#" class="d-flex align-items-center mb-3">
+                                    <img class="img-fluid mr-2" src="https://policypal.com/static/media/nav-travel-white.1306cee1.svg" />
+                                    Travel
+                                </a>
+                                <a href="#" class="d-flex align-items-center mb-3">
+                                    <img class="img-fluid mr-2" src="https://policypal.com/static/media/nav-travel-white.1306cee1.svg" />
+                                    Travel
+                                </a>
+                                <a href="#" class="d-flex align-items-center mb-3">
+                                    <img class="img-fluid mr-2" src="https://policypal.com/static/media/nav-travel-white.1306cee1.svg" />
+                                    Travel
+                                </a>
+                            </div>
+                        </div>
+                        <a href="#" class="navbar-menu-mobile-item mt-2">Bussiness</a>
+                        <a href="#" class="navbar-menu-mobile-item mt-2">Blog</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="circle-shade circle-shade-1"></div>
+    <div class="circle-shade circle-shade-2"></div>
+    <section class="sec-1">
+        <div class="container">
+            <div class="group">
+                <div class="row">
+                    <div class="col-md-6 col-xl-7 d-none d-lg-block">
+                        <div class="group-holder">
+                            <h1>Get 5% Cashback <br> <span class="mt-2 d-inline-block">upon purchase of <br> Travel Insurance!</span></h1>
+                            <img class="img-fluid character" src="https://www.policypal.com/static/media/TravelSplash.9b7fcb25.svg" />
+                            <div class="trusted-insurance">
+                                <i class="fa fa-arrow-left go-slide go-prev" aria-hidden="true"></i>
+                                <i class="fa fa-arrow-right go-slide go-next" aria-hidden="true"></i>
+                                <div class="trusted-insurance-slick">
+                                    <img class="img-fluid" src="images/1.png"/>
+                                    <img class="img-fluid" src="images/1.png"/>
+                                    <img class="img-fluid" src="images/1.png"/>
+                                    <img class="img-fluid" src="images/1.png"/>
+                                    <img class="img-fluid" src="images/1.png"/>
+                                    <img class="img-fluid" src="images/1.png"/>
+                                    <img class="img-fluid" src="images/1.png"/>
+                                    <img class="img-fluid" src="images/1.png"/>
+                                    <img class="img-fluid" src="images/1.png"/>
+                                    <img class="img-fluid" src="images/1.png"/>
+                                    <img class="img-fluid" src="images/1.png"/>
+                                    <img class="img-fluid" src="images/1.png"/>
+                                    <img class="img-fluid" src="images/1.png"/>
+                                </div>
+                            </div>
+                            <p>Over 20 trusted insurance partners and 50,000 registered users got their insurance solutions via PolicyPal</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-6">
+                        <div class="form-holder">
+                            <form>
+                                <div class="form-groups">
+                                    <label>I need a</label>
+                                    <div class="d-flex text-center mb-4">
+                                        <div class="btn-toggle active w-50 mr-1">
+                                            <span>Singel Trip Insurance</span>
+                                        </div>
+                                        <div class="btn-toggle w-50 ml-1">Annual Trip Insurance</div>
+                                    </div>
+                                    <div class="for-trip active">
+                                        <div class="form-group mb-1">
+                                            <label>I'm travelling to</label>
+                                            <select class="form-control">
+                                                <option disabled selected hidden>Enter or select your destination</option>
+                                                <option>Thailand</option>
+                                                <option>Vietnam</option>
+                                                <option>Indonesia</option>
+                                                <option>Laos</option>
+                                                <option>Campuchia</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group mb-4">
+                                            <label>Duration</label>
+                                            <div class="daterange-icon">
+                                                <input type="hidden" class="daterange-from" />
+                                                <input type="hidden" class="daterange-to" />
+                                                <input type="text" class="form-control daterange"  />
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="for-trip">
+                                        <div class="form-group mb-1">
+                                            <label>I'm travelling to</label>
+                                            <div class="input has-dropdown">
+                                                <div class="input-holder">
+                                                    <input type="text" class="form-control" value="Worldwide"/>
+                                                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="input-dropdown">
+                                                    <div class="input-dropdown-item">Asian</div>
+                                                    <div class="input-dropdown-item">Asia</div>
+                                                    <div class="input-dropdown-item active">Worldwide</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group mb-4">
+                                            <label>Duration</label>
+                                            <div class="input">
+                                                <div class="input-holder">
+                                                    <input type="text" class="form-control datetime" value="2017 Jul 01"/>
+                                                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr class="my-4">
+                                    <div class="form-group mb-4">
+                                        <div class="input">
+                                            <div class="input-holder has-placeholder">
+                                                <span>Email Adress</span>
+                                                <input type="text" class="form-control" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <div class="input focus">
+                                            <div class="input-holder has-placeholder">
+                                                <span>Date of birth</span>
+                                                <input type="text" class="form-control birthday" value="1993 Feb 21"/>
+                                                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <div class="input has-dropdown">
+                                            <div class="input-holder has-placeholder">
+                                                <span>Gender</span>
+                                                <input type="text" class="form-control" />
+                                                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="input-dropdown">
+                                                <div class="input-dropdown-item">Male</div>
+                                                <div class="input-dropdown-item">Female</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col-8 col-sm-5 col-md-3 col-lg-6 mb-4 mb-md-0">
+                                            <div class="age-range-holder d-flex align-items-center mb-2" data-min="1" data-max="6">
+                                                <input type="hidden" class="adults" />
+                                                <span class="age-range-number">1</span>
+                                                <span class="ml-1 mr-auto">adults</span>
+                                                <i class="fa fa-minus ml-4" aria-hidden="true"></i>
+                                                <i class="fa fa-plus ml-3" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="age-range-holder d-flex align-items-center" data-min="0" data-max="4">
+                                                <input type="hidden" class="children" />
+                                                <span class="age-range-number">0</span>
+                                                <span class="ml-1 mr-auto">children</span>
+                                                <i class="fa fa-minus ml-4" aria-hidden="true"></i>
+                                                <i class="fa fa-plus ml-3" aria-hidden="true"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 ml-auto">
+                                            <button type="submit" class="btn btn-submit w-100">
+                                                Search Policies
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <img class="mouse d-none d-md-inline-block" src="https://www.policypal.com/static/media/Mouse.01511870.svg" />
+        </div>
+    </section>
+    <section class="sec-2">
+        <div class="container">
+            <div class="title title-1 text-center">It's better to buy from PolicyPal</div>
+            <div class="row text-center">
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <div class="group-img">
+                        <img class="img-fluid" src="https://www.policypal.com/static/media/PiggyBank.fb908820.svg" />
+                    </div>
+                    <div class="group-title">Value for Money</div>
+                    <p class="text-left">
+                        We compare policies listed by our partners to give you a comprehensive overview of the coverages best suited to your need the                        most affordable price.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <div class="group-img">
+                        <img class="img-fluid" src="https://www.policypal.com/static/media/PiggyBank.fb908820.svg" />
+                    </div>
+                    <div class="group-title">Value for Money</div>
+                    <p class="text-left">
+                        We compare policies listed by our partners to give you a comprehensive overview of the coverages best suited to your need the                        most affordable price.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <div class="group-img">
+                        <img class="img-fluid" src="https://www.policypal.com/static/media/PiggyBank.fb908820.svg" />
+                    </div>
+                    <div class="group-title">Value for Money</div>
+                    <p class="text-left">
+                        We compare policies listed by our partners to give you a comprehensive overview of the coverages best suited to your need the                        most affordable price.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <div class="group-img">
+                        <img class="img-fluid" src="https://www.policypal.com/static/media/PiggyBank.fb908820.svg" />
+                    </div>
+                    <div class="group-title">Value for Money</div>
+                    <p class="text-left">
+                        We compare policies listed by our partners to give you a comprehensive overview of the coverages best suited to your need the                        most affordable price.
+                    </p>
+                </div>
+            </div>
+            <div class="title title-2 text-center">Why you need Travel Insurance?</div>
+            <div class="row text-center">
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <div class="group-img">
+                        <img class="img-fluid" src="https://www.policypal.com/static/media/PiggyBank.fb908820.svg" />
+                    </div>
+                    <div class="group-title">Value for Money</div>
+                    <p class="text-left">
+                        We compare policies listed by our partners to give you a comprehensive overview of the coverages best suited to your need the                        most affordable price.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <div class="group-img">
+                        <img class="img-fluid" src="https://www.policypal.com/static/media/PiggyBank.fb908820.svg" />
+                    </div>
+                    <div class="group-title">Value for Money</div>
+                    <p class="text-left">
+                        We compare policies listed by our partners to give you a comprehensive overview of the coverages best suited to your need the                        most affordable price.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <div class="group-img">
+                        <img class="img-fluid" src="https://www.policypal.com/static/media/PiggyBank.fb908820.svg" />
+                    </div>
+                    <div class="group-title">Value for Money</div>
+                    <p class="text-left">
+                        We compare policies listed by our partners to give you a comprehensive overview of the coverages best suited to your need the                        most affordable price.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <div class="group-img">
+                        <img class="img-fluid" src="https://www.policypal.com/static/media/PiggyBank.fb908820.svg" />
+                    </div>
+                    <div class="group-title">Value for Money</div>
+                    <p class="text-left">
+                        We compare policies listed by our partners to give you a comprehensive overview of the coverages best suited to your need the                        most affordable price.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer-form">
+    <img class="f-img" src="https://www.policypal.com/static/media/footer-policy-pal.7063817d.svg" />
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-4 col-lg-3 offset-md-1 mb-3 mb-md-0 text-left text-md-right">
+                <a href="#" class="d-inline-block btn-phone">
+                    <i class="fa fa-phone mr-1" aria-hidden="true"></i> +87 4324 3232
+                </a>
+            </div>
+            <div class="col-md-4 col-lg-3">
+                <h3>Customer service hours</h3>
+                <p>10am - 7pm</p>
+                <p>Mondays to Fridays</p>
+                <p>(excluding public holidays)</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+<!-- build:js scripts/main.js -->
+<script src="scripts/main.js"></script>
+<!-- endbuild -->
+<!-- build:js scripts/policy-pal-form.js -->
+<script src="scripts/policy-pal-form.js"></script>
+<!-- endbuild -->
+</body>
+</html>

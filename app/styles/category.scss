@@ -1,0 +1,89 @@
+@import "variables";
+@import "mixins";
+
+.sec-1{
+  h1{
+    font-size: to-rem(24px);
+    font-weight: bold;
+    color: #354f53;
+    @media screen and (min-width: 1440px) {
+      font-size: to-rem(36px);
+    }
+  }
+  h2{
+    font-size: 24px;
+    color: #00d7af;
+    padding: 0 10px;
+    @media screen and (min-width: 768px) {
+      font-size: to-rem(36px);
+    }
+  }
+  .group{
+    background: url('https://policypal.com/static/media/Categories_BG.7b5cc731.png') no-repeat top;
+    background-size: contain;
+    max-width: 1000px;
+    .group-holder{
+      border-radius: 36px;
+      -webkit-box-shadow: 0 35px 30px 0 rgba(70,115,122,.2);
+      box-shadow: 0 35px 30px 0 rgba(70,115,122,.2);
+      min-height: 200px;
+      width: 200px;
+      color: #46737a;
+      margin: 4%;
+      @media screen and (min-width: 1440px) {
+        margin: 3%;
+      }
+      @media screen and (max-width: 767px){
+        width: 150px;
+        height: 150px;
+        border-radius: 28px;
+        min-height: 100%;
+      }
+      @media screen and (max-width: 413px){
+        margin: 3%;
+        width: 120px;
+        height: 120px;
+      }
+      &.bg-travel{
+        background: #eff8ff;
+      }
+      &.bg-endowment{
+        background: #f3f0ff;
+      }
+      &.bg-motor {
+        background: #fff6f9;
+      }
+      &.bg-retirement{
+        background: #fff9f1;
+      }
+      &.bg-life{
+        background: #eefdfd;
+      }
+      &.bg-pet{
+        background: #fdf7ff;
+      }
+      &.bg-personal{
+        background: #fffcec;
+      }
+      &.bg-bussiness{
+        background: #eff8ff;
+      }
+      img{
+        width: 60px;
+        height: 60px;
+        @media screen and (max-width: 767px){
+          width: 40px;
+          height: 40px;
+        }
+        margin-top: auto;
+      }
+      p{
+        font-weight: bold;
+        margin-bottom: auto;
+        @media screen and (max-width: 767px){
+          font-size: to-rem(14px);
+        }
+      }
+    }
+  }
+}

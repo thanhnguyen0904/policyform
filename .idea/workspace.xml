@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="901df148-edd9-4429-871c-dd1119869e37" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/apple-touch-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/After Night.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/After Night.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/AfterNight.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/AfterNight.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.babelrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.bowerrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/freelance-school-v1.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.yo-rc.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/abc.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/category.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/AfterNight.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/policy-pal-form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/policy-pal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/homepage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/policy-pal-form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/policy-pal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/_functions.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/_modules.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/abc/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/abc/settings.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/abc/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/category.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/components.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/mixins/_box-shadow.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/mixins/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/mixins/_hover.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/modules/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/modules/_texts.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/policy-pal-form.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/policy-pal.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/variables/_colors.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/spec/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.editorconfig" afterPath="$PROJECT_DIR$/.editorconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="$PROJECT_DIR$/.gitattributes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="freelance-school-v1" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="policy-pal-form.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/policy-pal-form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4260">
+              <caret line="284" column="54" lean-forward="false" selection-start-line="284" selection-start-column="54" selection-end-line="284" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1005">
+              <caret line="67" column="39" lean-forward="false" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="154" lean-forward="false" selection-start-line="0" selection-start-column="138" selection-end-line="0" selection-end-column="154" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="policy-pal-form.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/policy-pal-form.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="policy-pal.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/policy-pal.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6660">
+              <caret line="444" column="67" lean-forward="false" selection-start-line="444" selection-start-column="67" selection-end-line="444" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>opened</find>
+      <find>toggle</find>
+      <find>navbar-menu-mobile-holder</find>
+      <find>auto</find>
+      <find>data-ride</find>
+      <find>slick</find>
+      <find>box-sh</find>
+      <find>char</find>
+      <find>-180</find>
+      <find>pink</find>
+      <find>span</find>
+      <find>-20px</find>
+      <find>search</find>
+      <find>btn-toggle</find>
+      <find>&amp;.active</find>
+      <find>select</find>
+      <find>dis</find>
+      <find>inset</find>
+      <find>datetimes</find>
+      <find>10px</find>
+      <find>font-size: 10</find>
+      <find>input</find>
+      <find>btn-to</find>
+      <find>btn-tg</find>
+      <find>datetime</find>
+      <find>daterang</find>
+      <find>birthday</find>
+      <find>birt</find>
+      <find>.css</find>
+      <find>worldwide</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>group-sm</replace>
+      <replace>group-no-img</replace>
+      <replace>ele</replace>
+      <replace>nav-link</replace>
+      <replace>nav-links</replace>
+      <replace>a</replace>
+      <replace>&lt;a href=&quot;#&quot;</replace>
+      <replace>rem-font-size</replace>
+      <replace>mr-6</replace>
+      <replace>mr-5</replace>
+      <replace>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTggKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkU1RjY2MUU2QkU3RDExRTg5RTlCOERCMzZDMjgxMTBDIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkU1RjY2MUU3QkU3RDExRTg5RTlCOERCMzZDMjgxMTBDIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RTVGNjYxRTRCRTdEMTFFODlFOUI4REIzNkMyODExMEMiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6RTVGNjYxRTVCRTdEMTFFODlFOUI4REIzNkMyODExMEMiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6WT8KWAAAUUUlEQVR42uyc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</replace>
+      <replace>https://policypal.com/static/media/add-choose-cat.2b742b81.jpg</replace>
+      <replace>!important;</replace>
+      <replace>https://blog.policypal.com/blog/wp-content/uploads/2019/01/Hacker-Noon-768x433.png</replace>
+      <replace>my-2</replace>
+      <replace>#c8e0e4</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/scripts/page-1.js" />
+        <option value="$PROJECT_DIR$/app/page-1.html" />
+        <option value="$PROJECT_DIR$/app/styles/components.scss" />
+        <option value="$PROJECT_DIR$/app/scripts/homepage.js" />
+        <option value="$PROJECT_DIR$/app/styles/header.scss" />
+        <option value="$PROJECT_DIR$/app/styles/homepage.scss" />
+        <option value="$PROJECT_DIR$/app/styles/footer.scss" />
+        <option value="$PROJECT_DIR$/app/homepage.html" />
+        <option value="$PROJECT_DIR$/app/styles/_mixins.scss" />
+        <option value="$PROJECT_DIR$/app/styles/policy-pal.scss" />
+        <option value="$PROJECT_DIR$/app/scripts/main.js" />
+        <option value="$PROJECT_DIR$/app/scripts/policy-pal.js" />
+        <option value="$PROJECT_DIR$/app/policy-pal.html" />
+        <option value="$PROJECT_DIR$/app/styles/core.scss" />
+        <option value="$PROJECT_DIR$/app/scripts/policy-pal-form.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/app/styles/abc/settings.css" />
+        <option value="$PROJECT_DIR$/app/styles/abc/style.css" />
+        <option value="$PROJECT_DIR$/app/styles/abc/font-awesome.min.css" />
+        <option value="$PROJECT_DIR$/app/abc.htm" />
+        <option value="$PROJECT_DIR$/app/category.html" />
+        <option value="$PROJECT_DIR$/app/policy-pal-form.html" />
+        <option value="$PROJECT_DIR$/app/styles/policy-pal-form.scss" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="30" />
+    <option name="width" value="1440" />
+    <option name="height" value="840" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freelance-policypal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freelance-policypal" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="js.eslint.eslintPackage" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="SearchEverywhereHistoryKey" value="main.js&#9;FILE&#9;file:///Users/Gacon/Projects/freelance-policypal/app/scripts/main.js&#10;core&#9;FILE&#9;file:///Users/Gacon/Projects/freelance-school-v1/app/styles/core.scss" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="FullScreen" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/app/images" />
+      <recent name="$PROJECT_DIR$/app/fonts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/scripts" />
+      <recent name="$PROJECT_DIR$/app/styles" />
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/app/images" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="901df148-edd9-4429-871c-dd1119869e37" name="Default" comment="" />
+      <created>1525767742261</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1525767742261</updated>
+      <workItem from="1525767743519" duration="27656000" />
+      <workItem from="1525836689281" duration="29000" />
+      <workItem from="1537178543250" duration="1124000" />
+      <workItem from="1537188661879" duration="3445000" />
+      <workItem from="1538299250907" duration="10560000" />
+      <workItem from="1538453424500" duration="580000" />
+      <workItem from="1545985956284" duration="476000" />
+      <workItem from="1550309147517" duration="23045000" />
+      <workItem from="1550481426451" duration="24748000" />
+      <workItem from="1550914194182" duration="1544000" />
+      <workItem from="1550915859057" duration="13000" />
+      <workItem from="1551066451467" duration="155000" />
+      <workItem from="1551066777644" duration="239000" />
+      <workItem from="1552359679573" duration="19000" />
+      <workItem from="1554862873328" duration="914000" />
+      <workItem from="1555570056243" duration="22000" />
+      <workItem from="1555661376116" duration="386000" />
+      <workItem from="1555727738603" duration="380000" />
+      <workItem from="1559901317577" duration="276000" />
+      <workItem from="1562562552803" duration="324000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="95935000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="30" width="1440" height="840" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1881259" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26233765" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/USAGE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/robots.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/_functions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/banner.png" />
+    <entry file="file://$PROJECT_DIR$/app/images/logo.png" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="130" column="9" lean-forward="true" selection-start-line="130" selection-start-column="9" selection-end-line="130" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/_modules.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/homepage.js" />
+    <entry file="file://$PROJECT_DIR$/app/images/1.jpg" />
+    <entry file="file://$PROJECT_DIR$/app/homepage.html" />
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/modules/_texts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/mixins/_hover.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/mixins/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/homepage.scss" />
+    <entry file="file://$PROJECT_DIR$/app/fonts/AfterNight.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/mixins/_box-shadow.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/sass/lib/sass.jar!/org/jetbrains/plugins/sass/stdlib/sass_functions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="1294" column="10" lean-forward="false" selection-start-line="1294" selection-start-column="10" selection-end-line="1294" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/category.scss" />
+    <entry file="file://$PROJECT_DIR$/app/styles/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="16" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/policy-pal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="228" column="16" lean-forward="false" selection-start-line="228" selection-start-column="16" selection-end-line="228" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/policy-pal.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="76" column="21" lean-forward="false" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/policy-pal-form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="89" column="31" lean-forward="false" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/footer.scss" />
+    <entry file="file://$PROJECT_DIR$/app/styles/header.scss" />
+    <entry file="file://$PROJECT_DIR$/dist/scripts/policy-pal.js" />
+    <entry file="file://$PROJECT_DIR$/dist/scripts/main.js" />
+    <entry file="file://$PROJECT_DIR$/dist/styles/policy-pal.css" />
+    <entry file="file://$PROJECT_DIR$/app/styles/core.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/abc/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="21822" lean-forward="false" selection-start-line="3" selection-start-column="21822" selection-end-line="3" selection-end-column="21822" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/abc/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="473" column="1" lean-forward="false" selection-start-line="473" selection-start-column="1" selection-end-line="473" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/abc/settings.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13500">
+          <caret line="900" column="1" lean-forward="false" selection-start-line="900" selection-start-column="1" selection-end-line="900" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/abc.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="32" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="357" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="357" column="14" lean-forward="false" selection-start-line="357" selection-start-column="14" selection-end-line="357" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/policy-pal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6660">
+          <caret line="444" column="67" lean-forward="false" selection-start-line="444" selection-start-column="67" selection-end-line="444" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/policy-pal-form.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/policy-pal-form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4260">
+          <caret line="284" column="54" lean-forward="false" selection-start-line="284" selection-start-column="54" selection-end-line="284" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" column="39" lean-forward="false" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="154" lean-forward="false" selection-start-line="0" selection-start-column="138" selection-end-line="0" selection-end-column="154" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
